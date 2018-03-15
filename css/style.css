@@ -1,0 +1,199 @@
+/* #e4b7e5
+#b288c0
+#7e5a9b 
+#63458a 
+#9a48d0 */
+*{
+    margin: 0;
+    font-family: 'Montserrat';
+    list-style: none;
+    text-decoration: none;
+}
+/* NNNNNNNNNNNNNNNNNNNNNNNAVEGACAO */
+nav{
+    max-height: 20%;
+    display: flex;
+    background: #63458a;
+    padding: 15px;
+}
+
+nav img{
+    width: 75%;
+}
+.menu-btn{
+    width: 10%;
+    padding: 10px;
+    background: #7e5a9b;
+    float: right;
+    margin-right: 10px;
+}
+/* BREAKPOINT 768 [DESKTOP]*/
+@media (min-width: 768px) {
+    nav{
+     max-height:50px;
+    } 
+    nav img{
+        width:50%; 
+    } 
+ }
+
+/* HHHHHHHHHHHHHHHHHHOME BANNER */
+.banner-home{
+    background: url(../img/bg-banner-claro.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 40vh;
+    align-items: center;
+    /* justify-content: center; */
+}
+.banner-home div{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+
+}
+.banner-home h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 0,75em;
+    width: 80%;
+    font-weight: bold;
+    color: #fff;
+    margin: auto;
+}
+.banner-home p {
+    width: 50%; 
+    margin: auto;
+    text-align: center;
+    color: #fff;
+}
+.banner-home a{
+    max-width: 200px;
+    text-align: center;
+    background-color: #7e5a9b;
+    color: #fff;
+    margin: 0 auto;
+    padding: 10px;
+}
+/* SSSSSSSECTION MULHERESSSSSSSS */
+.sobre-mulheres{
+    width: 100%;
+    min-height: 350px;
+    background:#7e5a9b;
+    text-align: center;
+}
+.sobre-mulheres img{
+    width: 50%;
+    margin: 10px;
+}
+.sobre-mulheres p{
+    color: #fff;
+    margin: 8px;
+}
+/* CCCCCCCCCCCCCCCCCCCCCCCCCCCONHEÇA MULHERES */
+.conhece-mulheres{
+    background: #f5f5f5;
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.conhece-mulheres img{
+    background: indigo;
+    padding: 50px;
+    margin: 15px;
+    border-radius: 7px;
+    text-align: center;
+}
+.conhece-mulheres h2{
+    text-align: center;
+    font-size: 1em;
+    margin: 10px;
+    margin-top: 0;
+    color: #63458a;    
+}
+.conhece-mulheres p{
+    color: #63458a;
+    font-size: 1em;
+    text-align: center;
+}
+.conhece-mulheres a{
+    text-align: center;
+    background-color: #7e5a9b;
+    padding: 10px;
+    margin: 10px;
+    color: #fff;
+}
+/* CCCCCCCCCCCCCCCCCCCRIADORAS */
+.criadoras{
+    background: #63458a;
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.criadoras div{
+    display: flex;
+    flex-wrap: wrap;
+}
+.criadoras img{
+    background: #fff;
+    margin: 5px 10px;
+} 
+.criadoras div > div {
+    height: 70px;
+}
+.criadoras a{
+    text-align: center;
+    background-color: #7e5a9b;
+    padding: 10px;
+    margin: 10px;
+    color: #fff;
+}
+/* FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFOTER */
+footer{
+    background: rgb(57, 56, 56);
+    text-align: center;
+    font-size: 0.75em;
+    color: #fff;
+    padding: 10%;
+}
+footer ul{
+    margin-right: 30px;
+}
+footer li a {
+    color: #fff;
+}
+footer img{
+    max-width: 50%;
+    margin: 4%;
+}
+.facebook-mara img{
+    height: 25px;
+}
+.facebook-mara{
+    display: inline-flex;
+    align-content: center;
+    align-items: center;
+    margin-top: 4%;
+    margin-bottom: 0;
+}
+/* CREEEEEEEEEEEEEEEEEEEEEEATIVE */
+.creative {
+    min-width: 10px;
+    padding: 10px;
+    margin-top: 0;
+    background: rgb(34, 34, 34);
+    font-size: 0.6em; 
+    text-align: center;
+    color: #ccc;
+}
+
+/* BREAKPOINT 360 --- MOBILE --- */
+@media (max-width: 360px){
+    nav div > ul{
+        display: none;
+    }
+}
