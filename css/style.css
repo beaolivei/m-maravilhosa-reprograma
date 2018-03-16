@@ -42,7 +42,7 @@ nav img{
     background: url(../img/bg-banner-claro.png);
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; /** eu acho que como a imagem já é grande não precisaria do no-repeat aqui */
     min-height: 40vh;
     align-items: center;
     /* justify-content: center; */
@@ -197,3 +197,4 @@ footer img{
         display: none;
     }
 }
+/**Achei seu css muito clean, bem aproveitado. Arrasou, maravilhosa!*/
